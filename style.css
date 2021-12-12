@@ -1,0 +1,38 @@
+body {
+	background: #424242;
+}
+
+div { /* обращаемся ко всем div на сайте */
+	width: 100px;
+	height: 100px;
+	background: gold;
+}
+
+p {
+	font-size: 70px; /* размер шрифта */
+	color: white;  /* цвет шрифта */
+	text-align: center;  /* текст выровнять по центру */
+	font-weight: 700;
+}
+
+p::first-letter {
+	color: red;
+}
+
+.red_block {
+	background: red;
+}
+
+.big_height {
+	height: 500px;
+}
+
+#super_block {
+	width: 200px;
+	height: 200px;
+	background: #000;
+}
+
+.black_letter {
+	color: black;
+}
